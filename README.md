@@ -27,6 +27,7 @@ Phân tích dữ liệu tai nạn giao thông cũng có thể cung cấp thông 
 - Đổ dữ liệu từ excel vào các bảng stage
 - Đổ dữ liệu từ stage vào các bảng Dim và Fact
 - Tạo các khoá ngoại giữa các bảng Fact và các bảng Dim
+-----------------------
 3.2 Xây dựng cube và truy vấn bằng công cụ SSAS
 - Tạo Data Source từ kho dữ liệu database DWAccident
 - Tạo Data Source View
