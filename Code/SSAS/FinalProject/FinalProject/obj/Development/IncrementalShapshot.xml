@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>FinalProject</Database>
+    <Server>ADMIN</Server>
+    <ConnectionString>Data Source=ADMIN;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>1I4InV7816F5wEIaOEJhXtqfnso=07/05/2023 2:21:07 PM07/05/2023 2:21:05 PM</TimeStamp>
+        <ID>
+          <String>AccidentDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>xIb8SNUygFS4puYNPmjOaWp+19E=07/05/2023 2:23:44 PM07/05/2023 2:23:44 PM</TimeStamp>
+        <ID>
+          <String>AccidentDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wMYJJAkeSRi78M7GqdXcQ3w1v2I=09/05/2023 8:31:28 PM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Vehicle</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BbZIfexyqxxbq6+wh4aZ+bOpHkQ=07/05/2023 2:38:15 PM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Road Feature</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MLbtRgiucv2cjnzCPIqmWcVU1MQ=07/05/2023 2:38:15 PM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Speed Limit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Lou5UioYAGM7leOLdh7Pl3CuUA4=08/05/2023 11:10:54 PM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Driver</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DrZjI3iS3fvSY95Zq5flBXcs30M=08/05/2023 12:22:48 AM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fqIFI3quVXDp868pmgL+Miw0S+M=07/05/2023 2:38:15 PM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Twilight</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qeWj4mRAGQY3+QRefmOyKxC6Mic=07/05/2023 2:38:15 PM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Weather</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TnSxtKS+Sc2K0P1qvzQ0GimsQ8I=16/05/2023 11:29:36 PM07/05/2023 2:24:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>O+5cnvoPNdyfvHhmaANGZbbkWf8=16/05/2023 11:29:36 PM07/05/2023 2:24:56 PMTIK1qgDdWne74BkyPgxJberyN1I=16/05/2023 11:20:41 PM07/05/2023 2:24:58 PM</TimeStamp>
+        <ID>
+          <String>AccidentDW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>zQEbbeuDwmBPQIdIwZvhM8ThkOY=07/05/2023 9:14:59 AM07/05/2023 9:14:59 AM</TimeStamp>
+      <ID>
+        <String>FinalProject</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-05-16T16:34:00.246667Z</LastDeployed>
+</DeploymentSnapshot>
