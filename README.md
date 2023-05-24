@@ -1,6 +1,8 @@
 # Xây Dựng Kho Dữ Liệu Quản Lí Các Ca Tai Nạn Giao Thông US từ 2016 - 2021 
 --------------------------------------
 ## 1. Giới thiệu đề tài
+![image](https://github.com/nguyenthanhhungDE/DATA-WAREHOUSE-ACCIDENT-US-2016-2021/assets/134383281/b5668439-fd71-4e9c-bac7-ff02461a3144)
+
 Tai nạn giao thông cũng ảnh hưởng đến kinh tế và tài chính của các quốc gia. Các chi phí liên quan đến tai nạn giao thông, bao gồm chi phí y tế, bảo hiểm, chi phí sửa chữa và thay thế phương tiện và nhiều chi phí khác, đều ảnh hưởng đến tài chính cá nhân và của quốc gia.
 Phân tích dữ liệu tai nạn giao thông cũng có thể cung cấp thông tin giá trị cho các nhà lãnh đạo và quyết định chính sách. Dữ liệu có thể giúp các nhà quản lý địa phương và quốc gia hiểu rõ hơn về các nguyên nhân và mô hình tai nạn giao thông, từ đó đưa ra quyết định chính sách phù hợp để giảm thiểu số vụ tai nạn.
 ## 2. Thông tin về dataset
@@ -20,10 +22,10 @@ Phân tích dữ liệu tai nạn giao thông cũng có thể cung cấp thông 
 - DimWeatherCondition : Thông tin về điều kiện thời tiết
 - Diagram :
 ![image](https://github.com/nguyenthanhhungDE/DATA-WAREHOUSE-ACCIDENT-US-2016-2021/assets/134383281/5c7756c4-8144-41ff-876b-b4c01aeca09e)
-
+- Link Video Báo Cáo: https://www.youtube.com/watch?v=asq4lMO2jKk&t=837s
 ## 3. Nội dung chính của dự án
 3.1 Xây dựng kho dữ liệu bằng công cụ SSIS
-- Tạo StageAccident lưu trữ các table stage và DWHSakila lưu trữ các tabel Dim - Fact
+- Tạo StageAccident lưu trữ các table stage và DwAccident lưu trữ các tabel Dim - Fact
 - Đổ dữ liệu từ excel vào các bảng stage
 - Đổ dữ liệu từ stage vào các bảng Dim và Fact
 - Tạo các khoá ngoại giữa các bảng Fact và các bảng Dim
